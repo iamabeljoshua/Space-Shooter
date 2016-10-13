@@ -81,8 +81,8 @@ def main():
             EnemyList.append(enemy)
         
         screen.blit(back, back_rect)
-        createText("Score: " +str(score), 12, Text_color,10, 10,None )
-        createText("Top Score: "+str(p_score), 12, Text_color ,10, 30, None)
+        createText("Score: " +str(score), 12, (255, 255, 255),10, 10,None )
+        createText("Top Score: "+str(p_score), 12, (255,255,255) ,10, 30, None)
         createText("Life: "+str(life), 12, Text_color ,10, 50, None)
         
         for event in pygame.event.get():
